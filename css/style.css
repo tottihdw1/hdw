@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+}
+a,
+a:hover,
+a:visited,
+a:link,
+a:active,
+a:focus {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*解决手机版点击背景问题*/
+}
+body {
+    width: 100%;
+        padding: 3%;
+
+}
+img{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 54px;
+    margin-top: 40px;
+}
+p{
+    font-size: 30px;
+    color: #999;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+a{
+    display: inline-block;
+}
+a img{
+width: 100%;
+}
+.lb-con {
+    width: 100%;
+}
+
+.lb-banner,
+.lb1,
+.lb6,
+.lb7,
+.lb8 {
+    width: 100%;
+}
+
+
+.lb2,
+.lb3,
+.lb4,
+.lb5 {
+    width: 48%;
+}
+
+.lb3,
+.lb5 {
+    float: right;
+}
+.lb-4box div{
+    clear: both;
+}
+.footer{
+    width: 62%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
